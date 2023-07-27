@@ -1,0 +1,3 @@
+-include .env
+#deploy-Sepolia:forge script script/DeployFundMe.s.sol:DeployFundMe --rpc-url https://eth-sepolia.g.alchemy.com/v2/C4MNAHQMm1X9KefjetWPSpRYJ1op9sVG --private-key C4MNAHQMm1X9KefjetWPSpRYJ1op9sVG
+deploy-anvil:forge script script/DeployFundMe.s.sol:DeployFundMe --rpc-url http://127.0.0.1:8545 --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80 --broadcast --verify --etherscan-api-key R7I8C3G4GI5ANM1BKHXMDWA3VD44T2X3GC -vvvv
